@@ -1,0 +1,78 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+  line-height: 1.4;
+  padding: 3rem 0.5rem;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 3.2rem;
+  margin: 0 0 3rem;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 3rem auto;
+  border-radius: 15px;
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+p {
+  padding-left: 5px;
+}
+
+p:last-of-type {
+  margin-top: -5px;
+}
+
+ul,
+ol {
+  padding-left: 2.2rem;
+}
+
+li,
+p {
+  color: #222;
+}
+
+li {
+  margin: 0.8rem 0;
+}
+
+a {
+  position: fixed;
+  color: blanchedalmond;
+  background-color: steelblue;
+  top: 5px;
+  left: 5px;
+  text-decoration: none;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: steelblue;
+  background-color: blanchedalmond;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
